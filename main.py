@@ -1,7 +1,10 @@
 import re
 import requests
+import os
+from dotenv import load_dotenv
 
-api_url = "https://akabab.github.io/superhero-api/api/all.json"
+load_dotenv()
+api_url = os.getenv('api_url')
 
 
 def get_heroes():
