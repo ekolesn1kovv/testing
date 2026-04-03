@@ -1,7 +1,13 @@
+# IDE
 .idea/
-.gigaide/
 *.iml
+
+# Python
 __pycache__/
 *.pyc
 .venv/
-venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
